@@ -54,3 +54,23 @@ run_analysis.R
 * Load features and activities.
 * Extract just mean and standard deviation column names and colums with subject and activity.
 * Create tidy dataset with aggregated values.
+
+## Variables
+#  Sources
+* features       
+* activity_labels 
+
+# Read training data
+*subject_train   
+*x_train        
+*y_train       
+
+# Read testing data
+* subject_test     
+* x_test          
+* y_test           
+
+* col_ names - column names
+* ds_all - bind train and test data set 
+* is_mean_or_std - vecor - mean and std columns
+* ds_all_tidy - tidy data set
