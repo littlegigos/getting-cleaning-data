@@ -66,6 +66,7 @@ col_names <- gsub("freq", "Frequency", col_names, ignore.case = TRUE);
 
 col_names <- gsub("angle", "Angle", col_names);
 col_names <- gsub("gravity", "Gravity", col_names);
+colnames(ds_all) <- col_names
 
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 ds_all_tidy <- aggregate(. ~SubjectID + ActivityID + ActivityName, ds_all, mean);
