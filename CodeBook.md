@@ -56,20 +56,19 @@ run_analysis.R
 * Create tidy dataset with aggregated values.
 
 ## Variables
-#  Sources
+###  Sources
 * features       
 * activity_labels 
 
-# Read training data
-*subject_train   
-*x_train        
-*y_train       
+* subject_train   
+* x_train        
+* y_train       
 
-# Read testing data
 * subject_test     
 * x_test          
 * y_test           
 
+### Helping variables
 * col_ names - column names
 * ds_all - bind train and test data set 
 * is_mean_or_std - vecor - mean and std columns
