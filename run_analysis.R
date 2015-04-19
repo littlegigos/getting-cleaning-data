@@ -71,4 +71,4 @@ col_names <- gsub("gravity", "Gravity", col_names);
 ds_all_tidy <- aggregate(. ~SubjectID + ActivityID + ActivityName, ds_all, mean);
 
 # Write tidy data set
-write.csv(ds_all_tidy, "Tidy.csv", row.names=FALSE);
+write.csv(ds_all_tidy, "Tidy.txt", row.names=FALSE);
